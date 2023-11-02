@@ -1,0 +1,27 @@
+main {
+	width: 100vw;
+	height: 100vh;
+	display: inline-grid;
+	grid-auto-rows: 1fr;
+}
+
+.cell {
+	background: lightgray;
+	border: 1px solid gray;
+}
+
+.wall {
+	background: brown;
+}
+
+.start {
+	background: yellow;
+}
+
+.goal {
+	background: black;
+}
+
+.step {
+	background: blue;
+}
